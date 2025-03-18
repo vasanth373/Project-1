@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   font-family: "poppins",sans-serif; 
+}
+* {
+    margin:5px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border:10px;
+}
+.nvb{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(131, 120, 120);
+    border-radius: 20px;
+}
+/* .bnrs{
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    margin-right: 50px;
+    border: 3px solid rgb(17, 16, 16);
+} */
+
+
+.cat-sec{
+    width: 100%;
+    height: 150px;
+    
+}
+.cat-sec ul li{
+    list-style: none;
+    display:inline-flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+    border:3px solid black;
+    margin-left:20px;
+    flex-direction: column;
+}
+.cat-sec ul li img{
+    width: 100%;
+}
+.cat-sec ul{
+    position: relative;
+}
+.cat-sec span{
+    position: absolute;
+    top: 125px;
+}
+
+.cat-sec li:hover{
+    transform: scale(1.2);
+}
+.arr-sec{
+    border: 2px solid black;
+    
+}
+.arr-sec ul li{
+    list-style: none;
+    display: inline-flex;
+    width: 220px;
+    height: 240px;
+    margin: 10px;
+    margin-left:40px;
+}
+.subsec ul li:hover{
+    transform: scale(1.2);
+}
+.subsec ul{
+ position: relative;
+}
+.subsec span{
+    position:absolute;
+    top: 246px;
+    margin-left:49px;
+    font-weight:bold;
+}
+.sub-sec2 span{ 
+    position: absolute;
+    top: 510px;
+    margin-left:60px;
+    font-weight:bold;
+
+}
+.subsec ul li img{
+    width: 100%;
+    border: 1px solid red;
+}
+.dis-sec{
+    width: 100%;
+    height: 800;
+    list-style: none;
+    display:flex;
+    border: 2px solid black;
+    
+}
+
+.dis-sec img{
+    height:400px;
+    width: 400px;
+    margin-left: 65px;
+}
+.offer img{
+height: 300px;
+width: 100%;
+border: 2px solid black;
+margin-left: 2px;
+}
+
+.nvb{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+}
+.prdts{
+    display: inline-flex;
+    list-style: none;
+    margin-right: 20px;
+}
+.Company h2{
+    margin-left: 10px;
+}
+.lp{
+    display: flex;
+    padding:50px;
+}
+.lp img{
+    height: 500px;
+    width: 500px;
+    padding-left: 30px;
+}
+.ppl{
+    width: 100%;
+    max-width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.ppr{
+    width: 100%;
+    max-width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.ppr ul li{
+    list-style: none;
+    padding:5px;
+}
+.buy button{
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+    border-radius: 20px;
+    
+}
+.add{
+    background-color: rgb(237, 99, 99);
+    font-weight:bold;
+}
+.now{
+    background-color: rgb(167, 231, 71);
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 10px;
+    border:1px solid black;
+    background-color: #555252;
+}
+.ft11 ul li{
+    list-style: none;
+    padding: 5px;
+
+}
+.ft11 ul li:hover{
+    transform: scale(1,2);
+}
+.ft11 h1:hover{
+    transform: scale(1,2);
+    margin-top: 20px;
+
+}
+.prdts{
+    position: relative;
+    top:7px;
+    margin-right: 30px;
+    
+}
+.prdts span{
+    height: 29px;
+    position: relative;
+    top: -3px;
+}
+.prdts span:hover{
+    transform: scale(1,2);
+}
+.prdts ul li {
+    list-style: none;
+    display: inline-flex;
+    height: 29px;
+    position: relative;
+    top: -3px;
+}
+.prdts ul li:hover{
+    transform: scale(1,2);
+}
+.Company img{
+    height:40px;
+    width:150px;
+    border-radius:2px;
+    
+}
